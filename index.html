@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Zadanie domowe nr 3 z kursu GO-IT" />
-    <title>Kurs GO-IT - Zadanie domowe nr 3</title>
+    <meta name="description" content="Zadanie domowe nr 4 z kursu GO-IT" />
+    <title>Kurs GO-IT - Zadanie domowe nr 4</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -43,20 +43,23 @@
             </ul>
           </nav>
         </div>
-        <adress>
+        <adress class="adress-header">
           <!-- email  -->
-          <svg width="16" height="12" viewBox="0 0 16 12" class="link">
-            <use href="./images/icons.svg#icon-mail"></use>
-          </svg>
-          <span class="facebook-icon"></span>
-          <a class="link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <svg width="10" height="16" viewBox="0 0 10 16">
-            <use href="./images/icons.svg#icon-phone"></use>
-          </svg>
-          <!-- phone -->
-          <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+          <div class="link-mail">
+            <svg width="16" height="12" viewBox="0 0 16 12" class="icon-header">
+              <use href="./images/icons.svg#icon-mail"></use>
+            </svg>
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </div>
+          <div class="link-mail">
+            <svg width="10" height="16" viewBox="0 0 10 16" class="icon-header">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+            <!-- phone -->
+            <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+          </div>
         </adress>
       </div>
     </header>
@@ -83,6 +86,11 @@
         <div class="container">
           <ul style="padding-left: 0px">
             <li>
+              <div class="lorem-container">
+                <svg height="70px" viewBox="0 0 70 70">
+                  <use href="./images/icons.svg#antena"></use>
+                </svg>
+              </div>
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -90,6 +98,11 @@
               </p>
             </li>
             <li>
+              <div class="lorem-container">
+                <svg height="70px" viewBox="0 0 70 70">
+                  <use href="./images/icons.svg#clock"></use>
+                </svg>
+              </div>
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -98,6 +111,11 @@
             </li>
 
             <li>
+              <div class="lorem-container">
+                <svg height="70px" viewBox="0 0 70 70">
+                  <use href="./images/icons.svg#diagram"></use>
+                </svg>
+              </div>
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -105,6 +123,11 @@
               </p>
             </li>
             <li>
+              <div class="lorem-container">
+                <svg height="70px" viewBox="0 0 70 70">
+                  <use href="./images/icons.svg#astronaut"></use>
+                </svg>
+              </div>
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -154,25 +177,152 @@
               <img src="images/img2.jpg" alt="John Doe - photo" width="270" />
               <h3>John Doe</h3>
               <p>Product Designer</p>
-
-              <svg>
-                <use href="./images/icons.svg#icon-facebook-team_member"></use>
-              </svg>
+              <div class="container-social-media">
+                <svg viewBox="-12 0 44 44" class="icon-social-team">
+                  <use
+                    width="20"
+                    href="./images/icons.svg#icon-instagram"
+                  ></use>
+                </svg>
+                <svg viewBox="-12 0 44 44" class="icon-social-team">
+                  <use width="20" href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+                <svg viewBox="0 -12 44 44" class="icon-social-team">
+                  <use
+                    height="20"
+                    href="./images/icons.svg#icon-facebook"
+                  ></use>
+                </svg>
+                <svg viewBox="0 -12 44 44" class="icon-social-team">
+                  <use
+                    height="20"
+                    href="./images/icons.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </div>
             </li>
             <li class="team-member">
               <img src="images/img3.jpg" alt="John Doe - photo" width="270" />
               <h3>John Doe</h3>
               <p>Frontend Developer</p>
+              <div class="container-social-media">
+                <svg viewBox="-12 0 44 44" class="icon-social-team">
+                  <use
+                    width="20"
+                    href="./images/icons.svg#icon-instagram"
+                  ></use>
+                </svg>
+                <svg viewBox="-12 0 44 44" class="icon-social-team">
+                  <use width="20" href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+                <svg viewBox="0 -12 44 44" class="icon-social-team">
+                  <use
+                    height="20"
+                    href="./images/icons.svg#icon-facebook"
+                  ></use>
+                </svg>
+                <svg viewBox="0 -12 44 44" class="icon-social-team">
+                  <use
+                    height="20"
+                    href="./images/icons.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </div>
             </li>
             <li class="team-member">
               <img src="images/img4.jpg" alt="John Doe - photo" width="270" />
               <h3>John Doe</h3>
               <p>Marketing</p>
+              <div class="container-social-media">
+                <svg viewBox="-12 0 44 44" class="icon-social-team">
+                  <use
+                    width="20"
+                    href="./images/icons.svg#icon-instagram"
+                  ></use>
+                </svg>
+                <svg viewBox="-12 0 44 44" class="icon-social-team">
+                  <use width="20" href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+                <svg viewBox="0 -12 44 44" class="icon-social-team">
+                  <use
+                    height="20"
+                    href="./images/icons.svg#icon-facebook"
+                  ></use>
+                </svg>
+                <svg viewBox="0 -12 44 44" class="icon-social-team">
+                  <use
+                    height="20"
+                    href="./images/icons.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </div>
             </li>
             <li class="team-member">
               <img src="images/img5.jpg" alt="John Doe - photo" width="270" />
               <h3>John Doe</h3>
               <p>UI Designer</p>
+              <div class="container-social-media">
+                <svg viewBox="-12 0 44 44" class="icon-social-team">
+                  <use
+                    width="20"
+                    href="./images/icons.svg#icon-instagram"
+                  ></use>
+                </svg>
+                <svg viewBox="-12 0 44 44" class="icon-social-team">
+                  <use width="20" href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+                <svg viewBox="0 -12 44 44" class="icon-social-team">
+                  <use
+                    height="20"
+                    href="./images/icons.svg#icon-facebook"
+                  ></use>
+                </svg>
+                <svg viewBox="0 -12 44 44" class="icon-social-team">
+                  <use
+                    height="20"
+                    href="./images/icons.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Our clients section-->
+      <section class="our-clients">
+        <div class="container">
+          <h2>Nasi klienci</h2>
+          <ul class="card-set-clients">
+            <li class="client-container">
+              <svg width="41" class="logo-our-clients">
+                <use href="./images/icons.svg#logo-1"></use>
+              </svg>
+            </li>
+            <li class="client-container">
+              <svg width="40" class="logo-our-clients">
+                <use href="./images/icons.svg#logo-2"></use>
+              </svg>
+            </li>
+            <li class="client-container">
+              <svg width="43.46" class="logo-our-clients">
+                <use href="./images/icons.svg#logo-5"></use>
+              </svg>
+            </li>
+            <li class="client-container">
+              <svg width="84.44" class="logo-our-clients">
+                <use href="./images/icons.svg#logo-4"></use>
+              </svg>
+            </li>
+            <li class="client-container">
+              <svg width="62.54" class="logo-our-clients">
+                <use href="./images/icons.svg#logo-3"></use>
+              </svg>
+            </li>
+            <li class="client-container">
+              <svg width="93.79" class="logo-our-clients">
+                <use href="./images/icons.svg#logo-6"></use>
+              </svg>
             </li>
           </ul>
         </div>
@@ -182,19 +332,46 @@
     <!-- Footer -->
     <footer>
       <div class="container">
-        <adress class="adress-footer">
-          <a id="logo-footer" class="logo" href="./index.html" title="WebStudio"
-            ><span class="accent">Web</span>Studio</a
-          >
-          <a class="adress-city-street"> m. Warszawa, Aleje Jerozolimskie 21</a>
+        <div class="inline-container-footer">
+          <adress class="adress-footer">
+            <a
+              id="logo-footer"
+              class="logo"
+              href="./index.html"
+              title="WebStudio"
+              ><span class="accent">Web</span>Studio</a
+            >
+            <a class="adress-city-street">
+              m. Warszawa, Aleje Jerozolimskie 21</a
+            >
 
-          <!-- e-mail  -->
-          <a class="link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <!-- phone -->
-          <a class="link" href="tel:+48111111111">+48 111 111 111</a>
-        </adress>
+            <!-- e-mail  -->
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+            <!-- phone -->
+            <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+          </adress>
+
+          <!-- social media buttons section -->
+          <div class="social-media-footer">
+            <p>DOŁĄCZ DO NAS</p>
+            <div class="container-social-media">
+              <svg viewBox="-12 0 44 44" class="icon-social-footer">
+                <use width="20" href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+              <svg viewBox="-12 0 44 44" class="icon-social-footer">
+                <use width="20" href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+              <svg viewBox="0 -12 44 44" class="icon-social-footer">
+                <use height="20" href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+              <svg viewBox="0 -12 44 44" class="icon-social-footer">
+                <use height="20" href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
