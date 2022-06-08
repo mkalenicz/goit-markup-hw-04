@@ -163,7 +163,9 @@ header {
 .client-container:hover {
   border: 1px solid #2196f3;
 }
-.logo-our-clients:hover {
+
+.client-container:hover > svg *,
+.client-container:hover {
   fill: #2196f3;
 }
 
@@ -443,14 +445,6 @@ adress svg {
   align-items: center;
 }
 
-.icon-header {
-  fill: #757575;
-}
-
-.icon-header:hover {
-  fill: #2196f3;
-}
-
 .lorem-container {
   background: #f5f4fa;
   border-radius: 4px;
@@ -490,8 +484,23 @@ adress a {
   color: #2196f3;
 }
 
-.link-mail:hover {
+.link-with-svg {
+  fill: #757575;
+  color: #757575;
+}
+
+.link-with-svg:hover a {
+  color: #2196f3;
+}
+.link-with-svg:hover > a *,
+.link-with-svg:hover {
+  color: #2196f3;
+}
+
+.link-with-svg:hover > svg *,
+.link-with-svg:hover {
   fill: #2196f3;
+  cursor: pointer;
 }
 
 .buttons-portfolio {
