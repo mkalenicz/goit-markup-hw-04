@@ -42,6 +42,7 @@ header {
   background-image: url("../images/bannerImgOverlay.png"),
     url("../images/bannerImg.jpg");
   background-position: center, center;
+  background-size: 1600px;
   display: flex;
   justify-content: center;
 }
@@ -302,6 +303,7 @@ header {
 }
 
 .container-social-media {
+  cursor: pointer;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -428,7 +430,7 @@ nav a {
 }
 
 adress {
-  margin-right: -50px;
+  margin-right: -30px;
 }
 
 .adress-header {
@@ -440,9 +442,7 @@ adress {
 }
 
 adress svg {
-  display: flex;
   margin-right: 10px;
-  align-items: center;
 }
 
 .lorem-container {
@@ -456,7 +456,7 @@ adress svg {
 }
 
 adress a {
-  margin-right: 50px;
+  margin-right: 30px;
   text-decoration: none;
   color: #757575;
   font-family: Roboto;
@@ -485,6 +485,17 @@ adress a {
 }
 
 .link-with-svg {
+  fill: #757575;
+  color: #757575;
+  display: flex;
+  align-items: center;
+}
+
+.link-with-svg a {
+  fill: #757575;
+  color: #757575;
+}
+.link-with-svg svg {
   fill: #757575;
   color: #757575;
 }
